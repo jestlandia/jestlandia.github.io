@@ -24,14 +24,16 @@ h1, h2, h3 {
     font-family: Arial;
   }
 
-.image {
-    width: 100%;
+  body {
+    margin: 0;
+    padding: 0;
+    width: auto;
     height: 100%;
     position: relative;
-    background: url('../images/faceless_poppies.jpeg');
-    background-size: cover;
-  }
-  .image:after {
+    background: url('../images/faceless_poppies.jpeg') center/cover no-repeat; /* Set background image */
+}
+
+  body:after {
     content: '';
     display: block;
     position: absolute;
@@ -42,9 +44,9 @@ h1, h2, h3 {
     background: rgba(127, 127, 127, 0.5);
     background-image: radial-gradient(black 33%, transparent 33%);
     background-size: 2px 2px;
-  }
+}
 
-  .image .name {
+ .name {
     font-size: 50px;
     color: white;
     padding-left: 10px;
