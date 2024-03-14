@@ -46,6 +46,44 @@ h1, h2, h3 {
  .name {
     font-size: 50px;
     color: white;
-    padding-left: 10px;
     text-align: left;
   }
+
+
+/* Navbar styles */
+nav {
+  padding: 10px 0;
+  padding-left: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: medium;
+  display: flex;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; 
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+ .footer {
+    position: fixed;
+    min-height: 50px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
