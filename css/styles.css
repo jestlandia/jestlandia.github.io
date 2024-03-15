@@ -63,12 +63,14 @@ nav ul {
   text-align: center;
   font-size: medium;
   display: flex;
-
+  padding-top: 10px;
+  padding-left: 5px;
 }
 
 nav ul li {
   display: inline;
-  margin-right: 20px; 
+  margin-right: 5px; 
+  font-weight: bold;
 }
 
 nav ul li:last-child {
@@ -79,7 +81,7 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   opacity: calc(60%);
-  padding: 5px 10px;
+  padding: 5px;
 }
 
 nav ul li a:hover {
@@ -90,8 +92,7 @@ nav ul li a:hover {
 }
 
 
-/* Footer  */
-
+/* Footer styles */
 footer {
   background-color: rgba(173, 173, 173, 0.954); 
   background-image: radial-gradient(black 33%, transparent 33%);
@@ -106,7 +107,6 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  /* background-color: #f0f0f0; */
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -117,6 +117,7 @@ footer {
   margin: 0;
   color:#292929;
   opacity:calc(50%);
+  font-size: 12px;
 }
 
 .footer .right {
@@ -128,12 +129,12 @@ footer {
   margin-left: 5px;
   text-decoration: none;
   opacity: calc(60%);
-
 }
 
 .footer .right img {
   width: auto; 
   height: 30px;
+  margin-top: 5px;
 }
 
 .footer .right a:hover {
