@@ -1,3 +1,5 @@
+
+
 @charset "utf-8";
 
 html, body { height: 100%;}
@@ -53,7 +55,6 @@ h1, h2, h3 {
 
 /* Navbar styles */
 nav {
-  padding: 10px 0;
   padding-left: 10px;
   position: relative;
   z-index: 1;
@@ -79,23 +80,66 @@ nav ul li:last-child {
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 5px 10px;
   opacity: calc(60%);
+  padding: 5px 10px;
 }
 
 nav ul li a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #fff;
   opacity:calc(100%);
   background-color: #55555563;
 }
 
+
+/* Footer  */
+
+footer {
+  background-color: rgba(173, 173, 173, 0.954); 
+  background-image: radial-gradient(black 33%, transparent 33%);
+  background-size: 2px 2px;
+  position: relative;
+  z-index: 1;
+}
+
 .footer {
   position: fixed;
-  min-height: 50px;
+  height: 45px;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #f0f0f0;
-  padding: 20px;
+  /* background-color: #f0f0f0; */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+  color:#292929;
+  opacity:calc(50%);
+}
+
+.footer .right {
+  display: flex;
+  align-items: center;
+}
+
+.footer .right a {
+  margin-left: 5px;
+  text-decoration: none;
+  opacity: calc(60%);
+
+}
+
+.footer .right img {
+  width: auto; 
+  height: 30px;
+}
+
+.footer .right a:hover {
+  width: auto; 
+  height: 32px;
+  opacity: 1;
 }
