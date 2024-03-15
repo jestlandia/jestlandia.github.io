@@ -18,7 +18,7 @@ h1, h2, h3 {
     box-sizing: border-box;
   }
   
-  body {
+body {
     font-family: Arial;
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ h1, h2, h3 {
     background: url('../images/faceless_poppies.jpeg') center/cover no-repeat;
 }
 
-  body::after {
+body::after {
     content: '';
     display: block;
     position: absolute;
@@ -41,7 +41,7 @@ h1, h2, h3 {
     background-size: 2px 2px;
 } 
 
- .name {
+.name {
     font-size: 50px;
     color: white;
     text-align: left;
