@@ -2,7 +2,7 @@
 
 html, body { height: 100%;}
 
-/* Reset some basic elements */
+/* Reset basic elements */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -25,8 +25,7 @@ h1, h2, h3 {
     width: auto;
     height: 100%;
     position: relative;
-    background: url('../images/faceless_poppies.jpeg') center/cover no-repeat; /* Set background image */
-
+    background: url('../images/faceless_poppies.jpeg') center/cover no-repeat;
 }
 
   body::after {
