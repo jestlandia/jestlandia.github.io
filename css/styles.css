@@ -100,8 +100,6 @@ nav ul li:hover {
   display: none;
   position: absolute;
   background-color: #55555563;
-
-  /* background-color: #5555551b; */
   min-width: 154px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
