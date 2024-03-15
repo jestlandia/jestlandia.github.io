@@ -39,7 +39,6 @@ h1, h2, h3 {
     background: rgba(127, 127, 127, 0.5);
     background-image: radial-gradient(black 33%, transparent 33%);
     background-size: 2px 2px;
-
 } 
 
  .name {
@@ -52,7 +51,7 @@ h1, h2, h3 {
 
 /* Navbar styles */
 nav {
-  padding-left: 10px;
+  padding-left: 15px;
   position: relative;
   z-index: 1;
 }
@@ -63,12 +62,10 @@ nav ul {
   font-size: medium;
   display: flex;
   padding-top: 10px;
-  padding-left: 5px;
 }
 
 nav ul li {
   display: inline;
-  margin-right: 5px; 
   font-weight: bold;
 }
 
@@ -80,13 +77,13 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   opacity: calc(60%);
-  padding: 5px;
+  padding: 10px;
 }
 
 nav ul li a:hover {
-  text-decoration: none !important;
+  text-decoration: none;
   color: #fff;
-  opacity:calc(100%);
+  opacity: 1;
   background-color: #55555563;
 }
 
