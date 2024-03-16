@@ -106,6 +106,7 @@ nav ul li:hover {
   z-index: 1;
   margin-top: 10px;
   margin-left:-10px;
+  font-size: small;
 }
 
 .dropdown-content a {
