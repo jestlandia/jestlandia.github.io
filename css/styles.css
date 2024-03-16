@@ -87,7 +87,7 @@ nav ul li {
 
 nav ul li:hover {
   text-decoration: none;
-  color: #fff;
+  color: #dddddde7;
   opacity: 1;
   background-color: #55555563;
 }
@@ -117,7 +117,7 @@ nav ul li:hover {
 }
 
 .dropdown-content a:hover {
-  background-color: #dddddd6d;
+  background-color: #dddddde7;
 }
 
 .dropdown:hover .dropdown-content {
@@ -162,7 +162,7 @@ footer {
 .footer p {
   margin: 0;
   color:#292929;
-  opacity:calc(50%);
+  opacity:calc(70%);
   font-size: 12px;
 }
 
@@ -187,4 +187,19 @@ footer {
   width: auto; 
   height: 32px;
   opacity: 1;
+}
+
+
+/* Reports */
+.container {
+  background-color: #ffffffdf;
+  width:90%;
+  height: calc(100vh - 200px);
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 55px;
+  margin: 20px 20px 0px 0px;
+  overflow-y: scroll;
+  z-index: 1;
 }
