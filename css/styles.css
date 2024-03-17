@@ -269,18 +269,75 @@ footer {
 }
 
 .popup-content {
-  background-color: white;
+  background-color: rgba(117, 147, 201, 0.55);
   padding: 20px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
 }
 
-.social-links a {
-  display: block;
+.popup-content .profile-info {
+  display: flex;
+  align-items: center; 
+}
+
+.popup-content img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  margin-left: 20px; 
+  margin-bottom: 5px;
+  color: inherit;
+}
+
+
+.social-links p {
+  font-size: 15.5px;
+  padding: 10px;
   margin-bottom: 10px;
 }
 
-.close-popup {
-  margin-top: 10px;
+.social-links span {
+  font-size: 15px;
+  margin-top: 5px;
+  padding-left: 10px;
 }
 
+.social-links a {
+  margin-bottom: 10px;
+  color: inherit;
+  text-decoration: none;
+  padding: 5px;
+}
 
+.social-links a:hover {
+  font-size: 15.5px;
+  font-weight: 600;
+}
+
+.close-popup {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: inherit;
+  padding: 5px;
+  cursor: pointer; 
+}
+
+.close-popup:hover {
+  font-weight: 600;
+  font-size: 15.5px;
+  color: inherit !important;
+}
