@@ -215,8 +215,6 @@ footer {
 }
 
 /* Authors */
-
-
 .ppl-container {
   display: flex;
   justify-content: center;
@@ -253,7 +251,7 @@ footer {
 }
 
 .popup {
-  display: none;
+ /* display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -261,7 +259,16 @@ footer {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  display: none;
+  position: fixed;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the popup */
+  width: 60%; /* Set desired width */
+  max-width: 200px; /* Set maximum width */
+  height: auto; /* Automatically adjust height based on content */
+  max-height: 80%; /* Set maximum height */
 }
 
 .popup:target {
