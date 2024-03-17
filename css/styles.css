@@ -280,6 +280,7 @@ footer {
 .popup-content .profile-info {
   display: flex;
   align-items: center; 
+  flex-direction: column;
 }
 
 .popup-content img {
