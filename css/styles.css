@@ -203,4 +203,5 @@ footer {
   margin: 20px 20px 0px 0px;
   overflow-y: scroll;
   z-index: 1;
+  border: 1px solid #454545;
 }
