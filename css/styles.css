@@ -267,9 +267,9 @@ footer {
 }
 
 .popup-content {
-  background-color: #aee22b;
+  background-color: #e2cf2b;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
