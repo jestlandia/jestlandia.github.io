@@ -260,7 +260,7 @@ footer {
   max-width: 600px; /* Set maximum width */
   height: auto; /* Automatically adjust height based on content */
   max-height: 80%; /* Set maximum height */
-    @include media-query(440px) {
+  @media screen and (max-width: 440px) {
       width: 80%;
     }
 }
@@ -292,7 +292,7 @@ footer {
   height: 200px;
   border: 1px solid #000;
   box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2), 0 6px 15px 0 rgba(0,0,0,0.19);
-    @include media-query(440px) {
+   @media screen and (max-width: 440px) {
       width: 150px;
       height: 150px;
     }
