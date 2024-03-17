@@ -275,6 +275,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #000;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2), 0 6px 15px 0 rgba(0,0,0,0.19);
 }
 
 .popup-content .profile-info {
@@ -287,6 +288,7 @@ footer {
   width: 200px;
   height: 200px;
   border: 1px solid #000;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2), 0 6px 15px 0 rgba(0,0,0,0.19);
 }
 
 .social-links {
