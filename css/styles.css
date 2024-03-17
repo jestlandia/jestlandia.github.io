@@ -219,7 +219,7 @@ footer {
 
 .ppl-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-top: 10px;
 }
@@ -228,6 +228,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 2px 12px;
 }
 
 .author a {
