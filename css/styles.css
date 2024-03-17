@@ -257,7 +257,7 @@ footer {
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Center the popup */
 /*   width: 70%; */ /* Set desired width */ 
-  max-width: 600px; /* Set maximum width */
+  max-width: 500px; /* Set maximum width */
   height: auto; /* Automatically adjust height based on content */
   max-height: 80%; /* Set maximum height */
   @media screen and (max-width: 600px) {
@@ -283,6 +283,9 @@ footer {
   align-items: center;
   border: 1px solid #000;
   box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2), 0 6px 15px 0 rgba(0,0,0,0.19);
+   @media screen and (max-width: 440px) {
+    font-size: 14px;
+    }
 }
 
 .popup-content .profile-info {
