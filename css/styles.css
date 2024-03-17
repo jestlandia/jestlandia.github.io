@@ -205,3 +205,6 @@ footer {
   z-index: 1;
   border: 1px solid #454545;
 }
+
+.container p {
+    font-size: 15px;
